@@ -1,0 +1,88 @@
+/* reset */
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* cabeçalho */
+
+h1, p {
+    text-align: center;
+}
+
+h1 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: blue;
+}
+
+/* galeria */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.card {
+    display: inline-block;
+    width: 200px;
+    margin: 25px;
+    border: 1px solid blue;
+}
+
+.card-img {
+    height: 200px;
+    background-size: cover;
+}
+
+.card-1 .card-img {
+    background-image: url(../img/img\ 1.jpg);
+}
+
+.card-2 .card-img {
+    background-image: url(../img/img\ 2.jpg);
+}
+
+.card-3 .card-img {
+    background-image: url(../img/img\ 3.jpg);
+}
+
+.card-4 .card-img {
+    background-image: url(../img/img\ 4.jpg);
+}
+
+.btn {
+    display: block;
+    margin: 0 auto;
+    background-color: blue;
+    color: #fff;
+    margin-top: 20px;
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid transparent;
+    font-weight: bold;
+    transition: .5s;
+    border-radius: 5px;
+    max-width: 100px;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: blue;
+    border-color: blue;
+}
+
+.card-content {
+    padding: 20px 10px;
+}
+
+footer p {
+    color: blue;
+}
+
+footer span {
+    text-decoration: bold;
+}
